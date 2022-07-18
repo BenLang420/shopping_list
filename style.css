@@ -1,0 +1,179 @@
+* {
+    margin: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.header-container {
+    display: flex;
+    height: 200px;
+    background-color: rgb(7, 161, 149);
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    color: rgb(212, 250, 252);
+    font-size: 48px;
+}
+
+.mh-container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(7, 161, 149);
+}
+
+.must-have-container {
+    display: flex;
+    height: 360px;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 7;
+    border-radius: 0px 180px 180px 0px;
+    background-color: white;
+}
+
+.must-have-header {
+    margin: 18px;
+    font-size: 24px;
+}
+
+.must-have-item-container {
+    display: flex;
+}
+
+.must-have-item {
+    display: flex;
+    padding: 0px 24px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
+
+.must-have-item-name {
+    margin-top: 6px;
+}
+
+.mh-side-deco {
+    flex-grow: 1;
+}
+
+.line1 {
+    height: 36px;
+    background-color: rgb(7, 161, 149);
+}
+
+.cw-container {
+    display: flex;
+    background-color: rgb(7, 161, 149);
+}
+
+.cw-side-deco {
+    flex-grow: 1;
+}
+
+.can-wait-container {
+    display: flex;
+    flex-grow: 7;
+    height: 360px;
+    border-radius: 180px 0px 0px 180px;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cw-header {
+    margin: 18px;
+    font-size: 24px;
+}
+
+.cw-item-container {
+    display: flex;
+}
+
+.cw-item {
+    display: flex;
+    padding: 0px 32px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
+
+.line2 {
+    height: 36px;
+    background-color: rgb(7, 161, 149);
+}
+
+.nice-to-have-container {
+    display: flex;
+    background-color: rgb(7, 161, 149);
+    height: 360px;
+}
+
+.nth-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 180px 180px 0px;
+    flex-grow: 2;
+    background-color: white;
+    align-items: center;
+}
+
+.nth-header {
+    margin: 18px;
+    font-size: 24px;
+}
+
+.nth-item {
+    display: flex;
+    padding: 0px 32px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
+
+.nth-item-container {
+    display: flex;
+}
+
+.tv-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 180px 0px 0px 180px;
+    flex-grow: 1;
+    background-color: white;
+    margin-left: 120px;
+    align-items: center;
+}
+
+.tv-header {
+    margin: 18px;
+    font-size: 24px;
+}
+
+.tv-item {
+    display: flex;
+    padding: 0px 32px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
+
+.line3 {
+    height: 36px;
+    background-color: rgb(7, 161, 149);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+} 
